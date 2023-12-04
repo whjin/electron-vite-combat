@@ -1,0 +1,19 @@
+{
+  "name": "eletron-combat",
+  "version": "1.0.0",
+  "description": "Electron实战",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node install.js",
+    "dev": "electron ./index.js"
+  },
+  "keywords": [
+    "electron",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^27.1.3"
+  }
+}
