@@ -1,19 +1,14 @@
 {
   "name": "electron-vite-combat",
-  "version": "1.0.0",
-  "description": "Electron实战",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "postinstall": "node install.js",
-    "dev": "electron ./index.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [
-    "electron",
-    "nodejs"
-  ],
-  "author": "whjin",
-  "license": "MIT",
   "devDependencies": {
-    "electron": "^28.1.0"
+    "vite": "^5.0.8"
   }
 }
