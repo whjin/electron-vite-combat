@@ -1,5 +1,5 @@
 {
-  "name": "eletron-combat",
+  "name": "electron-vite-combat",
   "version": "1.0.0",
   "description": "Electron实战",
   "main": "index.js",
@@ -11,9 +11,9 @@
     "electron",
     "nodejs"
   ],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "electron": "^27.1.3"
+  "author": "whjin",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.1.0"
   }
 }
